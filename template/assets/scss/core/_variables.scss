@@ -4,14 +4,14 @@
 $enable-sidebar-nav-rounded:          false !default;
 
 $border-color:                        $gray-200 !default;
-$layout-transition-speed:             .25s !default;
+$layout-transition-speed:             .1s !default;
 
 // Social Colors
 
 $facebook:                            #3b5998 !default;
-$twitter:                             #00aced !default;
+$twitter:                             #5AABBC !default;
 $linkedin:                            #4875b4 !default;
-$google-plus:                         #d34836 !default;
+$google-plus:                         #5F1709 !default;
 $flickr:                              #ff0084 !default;
 $tumblr:                              #32506d !default;
 $xing:                                #026466 !default;
@@ -38,7 +38,7 @@ $vimeo:                               #aad450 !default;
 // Navbar
 
 $navbar-height:                       55px !default;
-$navbar-bg:                           #fff !default;
+$navbar-bg:                           #0f243f !default;
 $navbar-border: (
   bottom: (
     size:                             1px,
@@ -47,9 +47,9 @@ $navbar-border: (
   )
 )  !default;
 $navbar-brand-width:                  155px !default;
-$navbar-brand-bg:                     #fff !default;
+$navbar-brand-bg:                     #0f243f !default;
 $navbar-brand-logo:                   url('/img/logo.png') !default;
-$navbar-brand-logo-size:              70px auto !default;
+$navbar-brand-logo-size:              200px auto !default;
 $navbar-brand-border: (
   bottom: (
     size:                             1px,

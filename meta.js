@@ -9,7 +9,7 @@ module.exports = {
     name: {
       'type': 'string',
       'required': true,
-      'message': 'Project name :'
+      'message': 'Project name : nd dashboard'
     },
     description: {
       'type': 'string',
@@ -19,7 +19,7 @@ module.exports = {
     },
     author: {
       'type': 'string',
-      'message': 'Author :'
+      'message': 'Author : 221b LLC'
     }
   },
   completeMessage: '{{#inPlace}}To get started:\n\n  npm install # Or yarn\n  npm run dev{{else}}To get started:\n\n  cd {{destDirName}}\n  npm install # Or yarn\n  npm run dev{{/inPlace}}'

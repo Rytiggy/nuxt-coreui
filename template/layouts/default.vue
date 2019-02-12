@@ -2,14 +2,14 @@
   <div class="app">
     <AppHeader/>
     <div class="app-body">
-      <Sidebar :navItems="nav"/>
+      <!-- <Sidebar :navItems="nav"/> -->
       <main class="main">
         <breadcrumb :list="list"/>
-        <div class="container-fluid">
+        <div class="container">
           <nuxt />
         </div>
       </main>
-      <AppAside/>
+      <!-- <AppAside/> -->
     </div>
     <AppFooter/>
   </div>
@@ -43,3 +43,25 @@ export default {
   }
 }
 </script>
+
+<style>
+
+
+a {
+    color: #5AABBC;
+    text-decoration: none;
+    background-color: transparent;
+}
+.bg-primary {
+    background: #5AABBC!important;
+}
+
+.bg-danger {
+    border-color: #C9972C!important;
+    background: #C9972C!important;
+
+}
+.app-header.navbar .navbar-brand {
+    background-size: 155px auto!important;
+}
+</style>
