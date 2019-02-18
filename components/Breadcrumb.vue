@@ -28,6 +28,10 @@ export default {
       if (item.name) {
         item = item.name
       }
+
+      if(item == 'index') {
+        item = 'dashboard'
+      }
       return item.split('-').join(' / ')
     }
   }
